@@ -51,3 +51,44 @@ def double_23(list_1: list) -> bool:
     else:
         return False
 ```
+
+
+"""
+###Array 1 middleWay
+def middleWay(a,b):
+  midnum = []
+  midnum.append(a[1])
+  midnum.append(b[1])
+  return midnum
+"""
+"""
+###Array 1 make_ends
+def make_ends(nums):
+  new = []
+  last = len(nums)-1
+  new.append(nums[0])
+  new.append(nums[last])
+  return new
+"""
+"""
+###Array 1 has23
+def has23(nums):
+  if nums[0] == 2 or nums[0] == 3:
+    return True
+  elif nums[1] == 2 or nums[1] == 3:
+    return True
+  else:
+    return False
+"""
+"""
+###Array 2 withoutTen
+def withoutTen(nums)
+  new_list = []
+  for n in nums:
+    if n == 10:
+      del nums[n]
+      new_list.append[0]
+  return nums
+"""
+
+
